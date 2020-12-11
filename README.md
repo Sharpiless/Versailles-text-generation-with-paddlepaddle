@@ -1,10 +1,10 @@
-﻿@[TOC](用Paddlepaddle做一个凡尔赛文学生成器)
 # 本文禁止转载！
+
 之前微博上掀起了一股装逼文体的新热潮
 
 该文体先抑后扬
 
-​将装逼隐藏在浮于表面的抱怨之中
+将装逼隐藏在浮于表面的抱怨之中
 
 装逼者总是在不经意间流露出贵族式的烦恼
 
@@ -36,6 +36,10 @@
 ```
 
 按照数据集要求对其进行整理，格式为“序号\t输入文本\t标签”
+
+数据集来自知乎并进行了手动标注：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211091436169.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
 
 
 ```python
